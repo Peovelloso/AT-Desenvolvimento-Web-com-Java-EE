@@ -1,0 +1,54 @@
+Do trabalho do AT
+Classe Principal = Pedido
+Classe de Associacao = Solicitante
+Classe Mae = Produto
+Classes Filhas = os produtos - Cachimbo,  Tabacos, isqueiros, etc
+
+-------------------------
+Classes
+Compra (principal)
+Comprador (assossiacao)
+Produto (mae), 
+Filhas - Cachimbo, Tabacos p/ Cachimbo, Isqueiro, Suporte.
+-------------------------
+
+#relacionamaentos;
+
+-um pedido e para um soliccitante.
+-um pedido pode ter varios produtos.
+-Existem tres tidpo de produto.
+
+Pedido:
+- atrib1
+- atrib2
+- atrib3
+- Solicitatne
+- Lista<Produto)
+
+Solicitante
+- atrib1
+- atrib2
+- atrib3
+
+Produto - abstract
+- atrib1
+- atrib2
+- atrib3
+
+Cachimbo - herdade de produto;
+- atrib1
+- atrib2
+- atrib3
+
+Cigarros - herdade de produto;
+- atrib1
+- atrib2
+- atrib3
+
+Tabacos - herdade de produto;
+- atrib1
+- atrib2
+- atrib3
+
+Uma Classe de exceçao
+Uma Classe de teste - Ler o arquivo e jogar dentro desse modelo de classes.
